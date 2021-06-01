@@ -1,0 +1,15 @@
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-family: Arial, verdana, sans-serif;
+    font-size: 1em;
+}
+
+.navbar-custom {
+    background-color: #f9a195;
+}
+
+nav .navbar-nav li a {
+    color: black !important;
+    font-weight: bold;
+}
