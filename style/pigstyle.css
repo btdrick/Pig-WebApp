@@ -6,10 +6,22 @@ body {
 }
 
 .navbar-custom {
-    background-color: #f9a195;
+    background-color: #ff6955;
 }
 
-nav .navbar-nav li a {
-    color: black !important;
-    font-weight: bold;
+.mobile {
+    display: none;
 }
+
+.desktop {
+    display: inline;
+}
+
+@media only all and (max-width: 768px) { 
+  .mobile {
+      display: inline;
+  }
+  .desktop {
+      display: none;
+  }
+  }
