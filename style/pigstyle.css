@@ -1,12 +1,23 @@
 body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
     font-family: Arial, verdana, sans-serif;
     font-size: 1em;
 }
 
+header {
+    margin-bottom: 4em;
+}
+
 .navbar-custom {
     background-color: #ff6955;
+}
+
+.footer {
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.card {
+    margin: 1em 0;
 }
 
 .mobile {
