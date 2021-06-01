@@ -49,6 +49,10 @@ header {
       display: none;
   }
 
+  .mobile-text {
+      font-size: 75%;
+  }
+
   #dice {
       width: 80%;
       height: 80%;
