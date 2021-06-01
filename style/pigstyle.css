@@ -7,6 +7,11 @@ header {
     margin-bottom: 4em;
 }
 
+#dice {
+    width: 550px;
+    height: 400px;
+}
+
 .navbar-custom {
     background-color: #ff6955;
 }
@@ -43,4 +48,9 @@ header {
   .desktop {
       display: none;
   }
+
+  #dice {
+      width: 80%;
+      height: 80%;
   }
+}
