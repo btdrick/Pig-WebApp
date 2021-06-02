@@ -1,6 +1,9 @@
-body {
+html {
     font-family: Arial, verdana, sans-serif;
+}
+body {
     font-size: 0.9em;
+    background-color: white;
 }
 
 header {
@@ -39,6 +42,12 @@ header {
 
 .desktop {
     display: inline;
+}
+
+@media (min-width: 768px) {
+    .container {
+        min-width: 90%;
+    }
 }
 
 @media only all and (max-width: 768px) { 
